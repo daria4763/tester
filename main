@@ -21,7 +21,7 @@ file_query3 = f'{cwd}/files/query3.json'
 file_wallets = f'{cwd}/files/wallets.txt'
 file_excel_table = f'{cwd}/LayerZero Stats.xlsx'
 
-# LOGGING SETTING
+### LOGGING SETTING
 logger.remove()
 logger.add(stderr, format="<white>{time:HH:mm:ss}</white> | <level>{level: <8}</level> | <cyan>{line}</cyan> - <white>{message}</white>")
 
