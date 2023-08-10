@@ -26,9 +26,9 @@ logger.remove()
 logger.add(stderr, format="<white>{time:HH:mm:ss}</white> | <level>{level: <8}</level> | <cyan>{line}</cyan> - <white>{message}</white>")
 
 WALLETS = []
-QUERY1 = 2464151
-QUERY2 =  2492847
-
+QUERY1 = 1234151
+QUERY2 =  2497856
+QUERY3 =  2493456
 
 def is_exists(path: str) -> bool:
     return os.path.isfile(path)
