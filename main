@@ -53,6 +53,11 @@ def load_wallets() -> None:
     with open(file_wallets, 'r') as file:
         WALLETS = [row.strip().lower() for row in file]
 
+def edit_dates3(wallets: list) -> None:
+    for wallet in wallets:
+        for i in wallet:
+            if (i == 'eth_total' and wallet[i] != None):
+                wallet[i] = f'{round(wallet[i],4)} ({round(wallet[i]*18000,2)})'
 
 def edit_dates1(wallets: list) -> None:
     for wallet in wallets:
