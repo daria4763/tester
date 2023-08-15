@@ -196,6 +196,9 @@ def setup_session() -> tls_client.Session:
     session.timeout_seconds = 1000
     return session
 
+def update_database3() -> None:
+    session = setup_session()
+    gor = true
 
 def update_database() -> None:
     session = setup_session()
