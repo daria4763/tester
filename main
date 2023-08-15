@@ -31,6 +31,7 @@ QUERY2 =  2497856
 QUERY3 =  2493456
 QUERY4 =  2493326
 QUERY5 =  1233216
+QUERY6 =  1233236
 
 def is_exists(path: str) -> bool:
     return os.path.isfile(path)
