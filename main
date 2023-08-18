@@ -5,9 +5,9 @@ from sys import stderr, exit
 import tls_client
 import inquirer
 import xlsxwriter
-# from art import text2art
-# from loguru import logger
-# from termcolor import colored
+from art import text2art
+from loguru import logger
+from termcolor import colored
 from inquirer.themes import load_theme_from_dict as loadth
 
 
