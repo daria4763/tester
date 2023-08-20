@@ -269,6 +269,9 @@ def make_table() -> None:
     logger.success('Готово!\n')
     WALLETS.clear()
 
+def make_table_new() -> None:
+    exists1 = is_exists(file_data2)
+    exists2 = is_exists(file_data1)
 
 def get_action() -> str:
     theme = {
