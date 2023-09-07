@@ -10,7 +10,6 @@ from loguru import logger
 from termcolor import colored
 from inquirer.themes import load_theme_from_dict as loadth
 
-
 # FILES SETTINGS
 cwd = os.getcwd()
 file_data1 = f'{cwd}/files/database1.json'
@@ -30,12 +29,11 @@ QUERY1 = 4535422
 QUERY2 =  2497856
 QUERY3 =  1346785
 QUERY4 =  2493326
-QUERY5 =  1233216
+QUERY5 =  6587285
 QUERY6 =  5424562
 
 def is_exists(path: str) -> bool:
     return os.path.isfile(path)
-
 
 def filter_wallets1(wallet: dict) -> bool:
     if (wallet['ua'].lower() in WALLETS):
